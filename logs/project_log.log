@@ -1,0 +1,16 @@
+2025-09-26 20:48:43.577 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 20:48:43.577 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 20:48:43.579 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\db.sqlite
+2025-09-26 20:48:43.583 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 20:48:43.606 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 20:48:43.624 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 20:48:43.624 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 20:48:43.625 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 20:49:37.013 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 20:49:37.014 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 20:49:37.015 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\micharljmoore.db.sqlite
+2025-09-26 20:49:37.017 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 20:49:37.037 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 20:49:37.055 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 20:49:37.056 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 20:49:37.057 | INFO     | __main__:main:65 - Database connection closed.
