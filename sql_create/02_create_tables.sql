@@ -13,5 +13,6 @@ CREATE TABLE books (
     genre TEXT,                 -- Book genre (optional)
     publication_year INTEGER,   -- Year of publication (optional)
     author_id TEXT,             -- Foreign key linking to authors
+    is_favorite BOOLEAN DEFAULT FALSE, -- Indicates if the book is a favorite (default is FALSE)
     FOREIGN KEY (author_id) REFERENCES authors (author_id) -- Relationship with authors
 );

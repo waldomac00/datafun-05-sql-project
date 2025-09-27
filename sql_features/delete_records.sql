@@ -1,2 +1,2 @@
 -- Example DELETE (careful!)
-DELETE FROM books WHERE year_published < 1800;
+DELETE FROM books WHERE publication_year < 1800;

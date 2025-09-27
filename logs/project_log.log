@@ -22,3 +22,65 @@
 2025-09-26 21:05:33.377 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
 2025-09-26 21:05:33.377 | INFO     | __main__:main:60 - Database setup completed successfully.
 2025-09-26 21:05:33.378 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 21:06:37.926 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:06:37.926 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 21:06:37.928 | ERROR    | __main__:main:46 - Database file not found at C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite. Ensure the database is created first.
+2025-09-26 21:07:08.202 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:07:08.202 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 21:07:08.204 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:07:08.206 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 21:07:08.226 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 21:07:08.240 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 21:07:08.241 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 21:07:08.241 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 21:07:10.952 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:07:10.953 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 21:07:10.956 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:07:10.967 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql-project\sql_features\delete_records.sql: no such column: year_published
+2025-09-26 21:07:10.968 | ERROR    | __main__:main:60 - Error during feature queries execution: no such column: year_published
+2025-09-26 21:07:10.968 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:08:29.105 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:08:29.106 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 21:08:29.108 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:08:29.125 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 21:08:29.141 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 21:08:29.158 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 21:08:29.158 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 21:08:29.159 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 21:08:40.333 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:08:40.334 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 21:08:40.336 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:08:40.365 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\delete_records.sql
+2025-09-26 21:08:40.366 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql-project\sql_features\update_records.sql: no such column: is_favorite
+2025-09-26 21:08:40.367 | ERROR    | __main__:main:60 - Error during feature queries execution: no such column: is_favorite
+2025-09-26 21:08:40.367 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:09:51.809 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:09:51.809 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 21:09:51.812 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:09:51.832 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 21:09:51.851 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 21:09:51.869 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 21:09:51.869 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 21:09:51.870 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 21:09:53.941 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:09:53.942 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 21:09:53.945 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:09:53.956 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\delete_records.sql
+2025-09-26 21:09:53.966 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql-project\sql_features\update_records.sql: no such column: year_published
+2025-09-26 21:09:53.966 | ERROR    | __main__:main:60 - Error during feature queries execution: no such column: year_published
+2025-09-26 21:09:53.967 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:10:21.307 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:10:21.308 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 21:10:21.310 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:10:21.332 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 21:10:21.351 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 21:10:21.369 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 21:10:21.370 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 21:10:21.370 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 21:10:23.628 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:10:23.629 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 21:10:23.631 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:10:23.673 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\delete_records.sql
+2025-09-26 21:10:23.705 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\update_records.sql
+2025-09-26 21:10:23.707 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-09-26 21:10:23.708 | INFO     | __main__:main:63 - Database connection closed.
