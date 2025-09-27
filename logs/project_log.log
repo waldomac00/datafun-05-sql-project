@@ -208,3 +208,136 @@ Harry Potter and the Sorcerer's Stone              1997
 2025-09-26 21:21:41.516 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_sorting_pubyear_hist.png
 2025-09-26 21:21:41.516 | INFO     | __main__:main:128 - 
 All queries processed. See the 'outputs/' folder for CSVs and charts.
+2025-09-26 21:48:47.237 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:48:47.237 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-26 21:48:47.244 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:48:47.270 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-09-26 21:48:47.292 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-09-26 21:48:47.327 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-09-26 21:48:47.328 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-09-26 21:48:47.328 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 21:49:18.869 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:49:18.869 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 21:49:18.871 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:49:18.882 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\delete_records.sql
+2025-09-26 21:49:18.893 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\update_records.sql
+2025-09-26 21:49:18.893 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-09-26 21:49:18.893 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:49:26.382 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:49:26.385 | INFO     | __main__:main:103 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:49:26.386 | INFO     | __main__:main:112 - 
+--- Running: query_aggregation.sql ---
+2025-09-26 21:49:26.404 | INFO     | __main__:save_table_preview:46 - 
+=== query_aggregation (up to 20 rows) ===
+2025-09-26 21:49:26.409 | INFO     | __main__:save_table_preview:50 -                 author  book_count
+        J.R.R. Tolkien           5
+           Jane Austen           4
+            C.S. Lewis           3
+       Charles Dickens           3
+      Ernest Hemingway           3
+          J.K. Rowling           3
+    Arthur Conan Doyle           2
+   F. Scott Fitzgerald           2
+Gabriel Garcia Marquez           2
+         George Orwell           2
+        John Steinbeck           2
+           Leo Tolstoy           2
+            Mark Twain           2
+        Virginia Woolf           2
+            Harper Lee           1
+       Herman Melville           1
+     Louisa May Alcott           1
+          Mary Shelley           1
+           Oscar Wilde           1
+                 Homer           0
+2025-09-26 21:49:26.415 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_aggregation.csv
+2025-09-26 21:49:27.076 | INFO     | __main__:try_chart:78 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_aggregation_books_per_author.png
+2025-09-26 21:49:27.077 | INFO     | __main__:main:112 - 
+--- Running: query_filter.sql ---
+2025-09-26 21:49:27.079 | INFO     | __main__:save_table_preview:46 - 
+=== query_filter (up to 20 rows) ===
+2025-09-26 21:49:27.080 | INFO     | __main__:save_table_preview:50 -                                             title  publication_year
+             The Lion, the Witch and the Wardrobe              1950
+                                   Prince Caspian              1951
+                          The Old Man and the Sea              1952
+                   The Voyage of the Dawn Treader              1952
+The Lord of the Rings: The Fellowship of the Ring              1954
+            The Lord of the Rings: The Two Towers              1954
+    The Lord of the Rings: The Return of the King              1955
+                            To Kill a Mockingbird              1960
+                    One Hundred Years of Solitude              1967
+                                 The Silmarillion              1977
+                      Love in the Time of Cholera              1985
+            Harry Potter and the Sorcerer's Stone              1997
+          Harry Potter and the Chamber of Secrets              1998
+         Harry Potter and the Prisoner of Azkaban              1999
+2025-09-26 21:49:27.083 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_filter.csv
+2025-09-26 21:49:27.453 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_filter_pubyear_hist.png
+2025-09-26 21:49:27.453 | INFO     | __main__:main:112 - 
+--- Running: query_group_by.sql ---
+2025-09-26 21:49:27.455 | INFO     | __main__:save_table_preview:46 - 
+=== query_group_by (up to 20 rows) ===
+2025-09-26 21:49:27.457 | INFO     | __main__:save_table_preview:50 - nationality  n_books  avg_year
+    British       25   1912.00
+   American       12   1916.25
+  Colombian        2   1976.00
+    Russian        2   1873.00
+      Irish        1   1890.00
+      Greek        0       NaN
+2025-09-26 21:49:27.459 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_group_by.csv
+2025-09-26 21:49:27.460 | INFO     | __main__:main:112 - 
+--- Running: query_join.sql ---
+2025-09-26 21:49:27.463 | INFO     | __main__:save_table_preview:46 - 
+=== query_join (up to 20 rows) ===
+2025-09-26 21:49:27.465 | INFO     | __main__:save_table_preview:50 -                                   title  publication_year                 author
+                     A Study in Scarlet              1887     Arthur Conan Doyle
+          The Hound of the Baskervilles              1902     Arthur Conan Doyle
+                         Prince Caspian              1951             C.S. Lewis
+   The Lion, the Witch and the Wardrobe              1950             C.S. Lewis
+         The Voyage of the Dawn Treader              1952             C.S. Lewis
+                   A Tale of Two Cities              1859        Charles Dickens
+                      David Copperfield              1850        Charles Dickens
+                     Great Expectations              1861        Charles Dickens
+                     A Farewell to Arms              1929       Ernest Hemingway
+                For Whom the Bell Tolls              1940       Ernest Hemingway
+                The Old Man and the Sea              1952       Ernest Hemingway
+                    Tender is the Night              1934    F. Scott Fitzgerald
+                       The Great Gatsby              1925    F. Scott Fitzgerald
+            Love in the Time of Cholera              1985 Gabriel Garcia Marquez
+          One Hundred Years of Solitude              1967 Gabriel Garcia Marquez
+                                   1984              1949          George Orwell
+                            Animal Farm              1945          George Orwell
+                  To Kill a Mockingbird              1960             Harper Lee
+                              Moby-Dick              1851        Herman Melville
+Harry Potter and the Chamber of Secrets              1998           J.K. Rowling
+2025-09-26 21:49:27.467 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_join.csv
+2025-09-26 21:49:27.735 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_join_pubyear_hist.png
+2025-09-26 21:49:27.736 | INFO     | __main__:main:112 - 
+--- Running: query_sorting.sql ---
+2025-09-26 21:49:27.737 | INFO     | __main__:save_table_preview:46 - 
+=== query_sorting (up to 20 rows) ===
+2025-09-26 21:49:27.738 | INFO     | __main__:save_table_preview:50 -                                             title  publication_year
+         Harry Potter and the Prisoner of Azkaban              1999
+          Harry Potter and the Chamber of Secrets              1998
+            Harry Potter and the Sorcerer's Stone              1997
+                      Love in the Time of Cholera              1985
+                                 The Silmarillion              1977
+                    One Hundred Years of Solitude              1967
+                            To Kill a Mockingbird              1960
+    The Lord of the Rings: The Return of the King              1955
+The Lord of the Rings: The Fellowship of the Ring              1954
+            The Lord of the Rings: The Two Towers              1954
+                          The Old Man and the Sea              1952
+                   The Voyage of the Dawn Treader              1952
+                                   Prince Caspian              1951
+             The Lion, the Witch and the Wardrobe              1950
+                                             1984              1949
+                                      Animal Farm              1945
+                          For Whom the Bell Tolls              1940
+                              The Grapes of Wrath              1939
+                                  Of Mice and Men              1937
+                                       The Hobbit              1937
+2025-09-26 21:49:27.740 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_sorting.csv
+2025-09-26 21:49:28.002 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_sorting_pubyear_hist.png
+2025-09-26 21:49:28.003 | INFO     | __main__:main:128 - 
+All queries processed. See the 'outputs/' folder for CSVs and charts.
