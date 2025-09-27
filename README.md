@@ -26,8 +26,8 @@ Follow these steps to run this project on your local machine.
 ### 1) Clone this repository
 ```bash
 cd ~/Repos
-git clone https://github.com/<your-username>/datafun-05-sql.git
-cd datafun-05-sql
+git clone https://github.com/waldomac00/datafun-05-sql-project/
+cd datafun-05-sql-projec
 ```
 
 ### 2) Create and activate a virtual environment
@@ -166,9 +166,9 @@ This structure supports questions like:
 Typical outputs include:
 
 - **Books per author:** Bar chart showing counts per author  
-- ![Bar Chart](outputs\query_aggregation_books_per_author.png)
+- ![Bar Chart](outputs/query_aggregation_books_per_author.png)
 - **Publication year distribution:** Histogram of book release years  
-- ![Histogram Realease Year](outputs\query_join_pubyear_hist.png)
+- ![Histogram Realease Year](outputs/query_filter_pubyear_hist.png)
 - **Group by nationality:** Average publication year per nationality  
   
 - **Joined table:** Books listed with author names  
