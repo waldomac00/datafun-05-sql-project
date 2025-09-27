@@ -1,4 +1,4 @@
-SELECT a.nationality, COUNT(b.book_id) AS n_books, AVG(b.year_published) AS avg_year
+SELECT a.nationality, COUNT(b.book_id) AS n_books, AVG(b.publication_year) AS avg_year
 FROM authors a
 LEFT JOIN books b ON b.author_id = a.author_id
 GROUP BY a.nationality

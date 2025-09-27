@@ -84,3 +84,20 @@
 2025-09-26 21:10:23.705 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_features\update_records.sql
 2025-09-26 21:10:23.707 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
 2025-09-26 21:10:23.708 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:11:12.087 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:11:12.088 | INFO     | __main__:main:36 - Starting query scripts execution...
+2025-09-26 21:11:12.090 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:11:12.096 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_aggregation.sql
+2025-09-26 21:11:12.097 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql-project\sql_queries\query_filter.sql: no such column: year_published
+2025-09-26 21:11:12.097 | ERROR    | __main__:main:60 - Error during query scripts execution: no such column: year_published
+2025-09-26 21:11:12.097 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:11:58.019 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:11:58.020 | INFO     | __main__:main:36 - Starting query scripts execution...
+2025-09-26 21:11:58.021 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:11:58.023 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_aggregation.sql
+2025-09-26 21:11:58.036 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_filter.sql
+2025-09-26 21:11:58.046 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_group_by.sql
+2025-09-26 21:11:58.056 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_join.sql
+2025-09-26 21:11:58.069 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-09-26 21:11:58.069 | INFO     | __main__:main:58 - Query scripts execution completed successfully.
+2025-09-26 21:11:58.070 | INFO     | __main__:main:63 - Database connection closed.

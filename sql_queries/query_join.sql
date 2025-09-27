@@ -1,5 +1,5 @@
 SELECT b.title,
-       b.year_published,
+       b.publication_year,
        a.name AS author
 FROM books b
 INNER JOIN authors a ON a.author_id = b.author_id
