@@ -101,3 +101,110 @@
 2025-09-26 21:11:58.069 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql-project\sql_queries\query_sorting.sql
 2025-09-26 21:11:58.069 | INFO     | __main__:main:58 - Query scripts execution completed successfully.
 2025-09-26 21:11:58.070 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 21:21:38.858 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 21:21:38.860 | INFO     | __main__:main:103 - Connected to database: C:\Repos\datafun-05-sql-project\data\michaeljmoore.db.sqlite
+2025-09-26 21:21:38.861 | INFO     | __main__:main:112 - 
+--- Running: query_aggregation.sql ---
+2025-09-26 21:21:38.880 | INFO     | __main__:save_table_preview:46 - 
+=== query_aggregation (up to 20 rows) ===
+2025-09-26 21:21:38.888 | INFO     | __main__:save_table_preview:50 -                 author  book_count
+    Arthur Conan Doyle           1
+            C.S. Lewis           1
+       Charles Dickens           1
+      Ernest Hemingway           1
+   F. Scott Fitzgerald           1
+Gabriel Garcia Marquez           1
+         George Orwell           1
+            Harper Lee           1
+       Herman Melville           1
+          J.K. Rowling           1
+        J.R.R. Tolkien           1
+           Jane Austen           1
+        John Steinbeck           1
+           Leo Tolstoy           1
+     Louisa May Alcott           1
+            Mark Twain           1
+          Mary Shelley           1
+           Oscar Wilde           1
+        Virginia Woolf           1
+                 Homer           0
+2025-09-26 21:21:38.895 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_aggregation.csv
+2025-09-26 21:21:40.658 | INFO     | __main__:try_chart:78 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_aggregation_books_per_author.png
+2025-09-26 21:21:40.659 | INFO     | __main__:main:112 - 
+--- Running: query_filter.sql ---
+2025-09-26 21:21:40.661 | INFO     | __main__:save_table_preview:46 - 
+=== query_filter (up to 20 rows) ===
+2025-09-26 21:21:40.663 | INFO     | __main__:save_table_preview:50 -                                 title  publication_year
+ The Lion, the Witch and the Wardrobe              1950
+              The Old Man and the Sea              1952
+                To Kill a Mockingbird              1960
+        One Hundred Years of Solitude              1967
+Harry Potter and the Sorcerer's Stone              1997
+2025-09-26 21:21:40.667 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_filter.csv
+2025-09-26 21:21:40.982 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_filter_pubyear_hist.png
+2025-09-26 21:21:40.983 | INFO     | __main__:main:112 - 
+--- Running: query_group_by.sql ---
+2025-09-26 21:21:40.984 | INFO     | __main__:save_table_preview:46 - 
+=== query_group_by (up to 20 rows) ===
+2025-09-26 21:21:40.986 | INFO     | __main__:save_table_preview:50 - nationality  n_books    avg_year
+    British        9 1905.555556
+   American        7 1911.285714
+  Colombian        1 1967.000000
+      Irish        1 1890.000000
+    Russian        1 1869.000000
+      Greek        0         NaN
+2025-09-26 21:21:40.988 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_group_by.csv
+2025-09-26 21:21:40.988 | INFO     | __main__:main:112 - 
+--- Running: query_join.sql ---
+2025-09-26 21:21:40.990 | INFO     | __main__:save_table_preview:46 - 
+=== query_join (up to 20 rows) ===
+2025-09-26 21:21:40.992 | INFO     | __main__:save_table_preview:50 -                                 title  publication_year                 author
+        The Hound of the Baskervilles              1902     Arthur Conan Doyle
+ The Lion, the Witch and the Wardrobe              1950             C.S. Lewis
+                 A Tale of Two Cities              1859        Charles Dickens
+              The Old Man and the Sea              1952       Ernest Hemingway
+                     The Great Gatsby              1925    F. Scott Fitzgerald
+        One Hundred Years of Solitude              1967 Gabriel Garcia Marquez
+                                 1984              1949          George Orwell
+                To Kill a Mockingbird              1960             Harper Lee
+                            Moby-Dick              1851        Herman Melville
+Harry Potter and the Sorcerer's Stone              1997           J.K. Rowling
+                           The Hobbit              1937         J.R.R. Tolkien
+                  Pride and Prejudice              1813            Jane Austen
+                  The Grapes of Wrath              1939         John Steinbeck
+                        War and Peace              1869            Leo Tolstoy
+                         Little Women              1868      Louisa May Alcott
+       Adventures of Huckleberry Finn              1884             Mark Twain
+                         Frankenstein              1818           Mary Shelley
+           The Picture of Dorian Gray              1890            Oscar Wilde
+                         Mrs Dalloway              1925         Virginia Woolf
+2025-09-26 21:21:40.993 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_join.csv
+2025-09-26 21:21:41.266 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_join_pubyear_hist.png
+2025-09-26 21:21:41.266 | INFO     | __main__:main:112 - 
+--- Running: query_sorting.sql ---
+2025-09-26 21:21:41.268 | INFO     | __main__:save_table_preview:46 - 
+=== query_sorting (up to 20 rows) ===
+2025-09-26 21:21:41.269 | INFO     | __main__:save_table_preview:50 -                                 title  publication_year
+Harry Potter and the Sorcerer's Stone              1997
+        One Hundred Years of Solitude              1967
+                To Kill a Mockingbird              1960
+              The Old Man and the Sea              1952
+ The Lion, the Witch and the Wardrobe              1950
+                                 1984              1949
+                  The Grapes of Wrath              1939
+                           The Hobbit              1937
+                         Mrs Dalloway              1925
+                     The Great Gatsby              1925
+        The Hound of the Baskervilles              1902
+           The Picture of Dorian Gray              1890
+       Adventures of Huckleberry Finn              1884
+                        War and Peace              1869
+                         Little Women              1868
+                 A Tale of Two Cities              1859
+                            Moby-Dick              1851
+                         Frankenstein              1818
+                  Pride and Prejudice              1813
+2025-09-26 21:21:41.271 | INFO     | __main__:save_csv:57 - Saved: C:\Repos\datafun-05-sql-project\outputs\query_sorting.csv
+2025-09-26 21:21:41.516 | INFO     | __main__:try_chart:89 - Saved chart: C:\Repos\datafun-05-sql-project\outputs\query_sorting_pubyear_hist.png
+2025-09-26 21:21:41.516 | INFO     | __main__:main:128 - 
+All queries processed. See the 'outputs/' folder for CSVs and charts.
